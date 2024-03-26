@@ -1,0 +1,17 @@
+main{
+    position: fixed;
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+main ul{
+    padding : 15px;
+}
+
+.other_link {
+    color: black ;
+    position: absolute;
+}

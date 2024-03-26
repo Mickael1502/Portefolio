@@ -1,0 +1,72 @@
+.b-i{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grisfonce);
+}
+
+.m-i{
+   
+   
+   position: fixed;
+   margin: auto;
+   margin-top: 15vh;
+   width: 100vw;
+   height: 100vh;
+  
+   display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 650px 100px 650px;    
+    gap: 0;
+    grid-auto-flow: row;
+    justify-content: space-around;
+    align-content: stretch;
+    justify-items: center;
+    align-items: stretch;
+    grid-template-areas:
+    "li-i welcome ri-i";
+
+}
+
+
+img, .li-i{
+    grid-area: left_img;
+    width :  95%;
+    height:  95%;
+
+    /*provisoir*/
+    display: none;
+} 
+
+.ri-i{
+    grid-area: right_img;
+    width : 95%;
+    height: 95%;
+    rotate: y 180deg;
+
+    /*provisoir*/
+    display: none;
+}
+
+.welcome{
+    font-family:  'Bebas Neue', sans-serif;
+    position: relative;
+    grid-area: welcome;
+    text-align: center;
+    top : 30%;
+    
+}
+
+.h1-i{
+    font-size: 6em;
+    color : var(--blanc);
+}
+
+.h2-i{
+    font-size: 3em;
+    color : var(--grisclaire);
+}
+
+
+body::-webkit-scrollbar{
+    display: none;
+}

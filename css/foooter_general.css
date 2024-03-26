@@ -1,0 +1,23 @@
+footer{
+    margin: auto;
+    background-color: var(--grisfonce);
+    width: 100vw;
+    height: 10%;
+    position:fixed;
+    box-shadow: 0px -3px 10px 3px #131212be;
+    top: 90%;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer_link{
+    padding : 10Px;
+    width: 2%;
+    height: 2%;
+}
