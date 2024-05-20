@@ -1,0 +1,30 @@
+.synthese_main{
+display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bebas Neue', sans-serif;
+    gap: 0;
+    
+}
+ .all{
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+.item1{
+    width: 80vw;
+    height: 70vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.item2{
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 2%;
+}

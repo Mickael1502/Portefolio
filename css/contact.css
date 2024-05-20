@@ -1,0 +1,50 @@
+.thecno_main{
+    display: grid;
+    width : 100vw;
+    height : 100vh;
+
+    align-items: center;
+    justify-items: center;
+
+    font-family: 'Bebas Neue', sans-serif;
+    grid-row: 1fr 3fr;
+    
+}
+
+.thecno_content_p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em; 
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 30vh;
+
+}
+
+.thecno_content_d{
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3%;
+    
+}
+
+.p{
+    text-align: justify;
+    border: solid;
+    font-size: 115%;
+    padding: 5%;
+}
+
+.a{
+    text-align: justify;
+    border: solid;
+    font-size: 115%;
+    padding: 5%;
+    color: black;
+    background-color: #4d4a4a7e;
+}
+
